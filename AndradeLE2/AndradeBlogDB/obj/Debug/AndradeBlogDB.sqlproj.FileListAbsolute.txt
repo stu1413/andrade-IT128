@@ -1,0 +1,6 @@
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\bin\Debug\AndradeBlogDB.dacpac
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\bin\Debug\AndradeBlogDB.dll
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\bin\Debug\AndradeBlogDB.pdb
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.sqlproj.AssemblyReference.cache
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.dll
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.pdb
