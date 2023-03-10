@@ -4,3 +4,7 @@ C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\bin\Debug\AndradeBlogDB.pdb
 C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.sqlproj.AssemblyReference.cache
 C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.dll
 C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.pdb
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\Model.xml
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\refactor.xml
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\postdeploy.sql
+C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\predeploy.sql

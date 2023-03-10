@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Dapper;
 
 namespace BlogDataLibrary.Database
 {
@@ -16,13 +19,13 @@ namespace BlogDataLibrary.Database
             _config = config;
         }
 
-        public List<T> LoadData<T, U>(string sqlSatement,
-                                                U parameters,
-                                                string connectionStringName,
-                                                bool isStoredProcedure)
+        public List<T> LoadData<T, U>(string sqlSatement, 
+                                        U parameters, 
+                                        string connectionStringName, 
+                                        bool isStoredProcedure)
         {
             CommandType commandType = CommandType.Text;
-            string connectionString =_config.GetConnectionString(connectionStringName);
+            string connectionString = _config.GetConnectionString(connectionStringName);
 
             if (isStoredProcedure)
             {
@@ -31,16 +34,15 @@ namespace BlogDataLibrary.Database
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
-                List<T> rows = connection.Query<T>(sqlSatement, parameters,
-                    commandType: commandType).ToList();
+                List<T> rows = connection.Query<T>(sqlSatement, parameters, commandType: commandType).ToList();
                 return rows;
             }
         }
 
-        public void LoadData<T>(string sqlSatement,
-                                        T parameters,
-                                        string connectionStringName,
-                                        bool isStoredProcedure)
+        public void SaveData<T, U>(string sqlSatement, 
+                                U parameters,
+                                string connectionStringName,
+                                bool isStoredProcedure)
         {
             string connectionString = _config.GetConnectionString(connectionStringName);
             CommandType commandType = CommandType.Text;
