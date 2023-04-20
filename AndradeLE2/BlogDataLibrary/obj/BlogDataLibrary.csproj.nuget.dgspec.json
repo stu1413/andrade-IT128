@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
+    "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+    "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "projectName": "BlogDataLibrary",
-        "projectPath": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
-        "packagesPath": "C:\\Users\\Ren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\obj\\",
+        "projectPath": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "packagesPath": "C:\\Users\\ren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
