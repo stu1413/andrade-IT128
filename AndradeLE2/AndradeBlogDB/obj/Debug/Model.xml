@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\ren\Desktop\IT128L\AndradeLE2\AndradeBlogDB\obj\Debug\AndradeBlogDB.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
