@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
+import { TokenStorageService } from 'src/app/services/token-storage.service';
 
 @Component({
   selector: 'app-register-page',
@@ -15,9 +16,13 @@ export class RegisterPageComponent implements OnInit {
     lastName: null,
   }
 
-  constructor(private http: HttpClient, private route: Router) { }
+  constructor(
+    private http: HttpClient, 
+    private route: Router, 
+    private tokenStorage: TokenStorageService) { }
 
   ngOnInit(): void {
+    this.tokenStorage.signOut();
   }
 
   onSubmit(): void {
@@ -28,7 +33,7 @@ export class RegisterPageComponent implements OnInit {
     console.log(this.form);
 
     this.http.post("https://localhost:7259/api/Login/register", this.form, {responseType: 'text'}).subscribe(data => {
-      this.route.navigate(['/login'])
+      this.route.navigate(['login'])
     })
   }
 

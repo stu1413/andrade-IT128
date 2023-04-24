@@ -35,6 +35,7 @@ namespace BlogAPI.Controllers
             ListPostModel post = _db.ShowPostDetails(id);
 
             return Ok(post);
+
         }
 
         private int GetCurrentUserId()

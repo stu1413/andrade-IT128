@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AuthService {
   isLoggedIn: boolean = false;
-  public redirectUrl: string = "";
+  public redirectUrl: string = "post";
 
   constructor(private http: HttpClient) {
 

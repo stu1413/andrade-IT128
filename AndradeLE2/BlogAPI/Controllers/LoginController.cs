@@ -7,6 +7,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json.Nodes;
 
 namespace BlogAPI.Controllers
 {
@@ -51,7 +52,12 @@ namespace BlogAPI.Controllers
             if (user != null)
             {
                 var token = GenerateToken(user);
-                return Ok(token);
+                
+                JsonObject loginData = new JsonObject();
+                loginData.Add("id_token", token);
+                loginData.Add("id", user.Id);
+                    
+                return Ok(loginData);
             }
 
             return NotFound("User not found");
