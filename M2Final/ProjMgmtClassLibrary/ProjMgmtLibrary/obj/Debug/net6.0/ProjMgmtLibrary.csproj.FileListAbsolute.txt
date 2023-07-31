@@ -1,0 +1,12 @@
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\bin\Debug\net6.0\ProjMgmtLibrary.deps.json
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\bin\Debug\net6.0\ProjMgmtLibrary.dll
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\bin\Debug\net6.0\ProjMgmtLibrary.pdb
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.csproj.AssemblyReference.cache
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.AssemblyInfoInputs.cache
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.AssemblyInfo.cs
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.dll
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\refint\ProjMgmtLibrary.dll
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ProjMgmtLibrary.pdb
+C:\Users\ren\Desktop\IT128L\M2Final\ProjMgmtLibrary\obj\Debug\net6.0\ref\ProjMgmtLibrary.dll

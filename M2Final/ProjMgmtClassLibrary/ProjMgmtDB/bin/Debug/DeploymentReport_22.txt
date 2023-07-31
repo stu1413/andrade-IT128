@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Assignments] (Table)
+       [dbo].[Projects] (Table)
+       [dbo].[Tasks] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[spAssignmentEmployees_List] (Procedure)
+       [dbo].[spAssignments_Add] (Procedure)
+       [dbo].[spAssignments_Delete] (Procedure)
+       [dbo].[spAssignments_Details] (Procedure)
+       [dbo].[spAssignments_Edit] (Procedure)
+       [dbo].[spAssignments_List] (Procedure)
+       [dbo].[spTaskAssignments_List] (Procedure)
+       [dbo].[spClientProjects_List] (Procedure)
+       [dbo].[spProjects_Add] (Procedure)
+       [dbo].[spProjects_Delete] (Procedure)
+       [dbo].[spProjects_Details] (Procedure)
+       [dbo].[spProjects_Edit] (Procedure)
+       [dbo].[spProjects_List] (Procedure)
+       [dbo].[spProjectTasks_List] (Procedure)
+       [dbo].[spTasks_Details] (Procedure)
+       [dbo].[spTasks_List] (Procedure)
+       [dbo].[spTasks_Add] (Procedure)
+       [dbo].[spTasks_Delete] (Procedure)
+       [dbo].[spTasks_Edit] (Procedure)

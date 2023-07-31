@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[Clients]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Recreate table
+       [dbo].[Clients] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Clients_Regions] (Foreign Key)
+       [dbo].[FK_Projects_Clients] (Foreign Key)
+     Create
+       [dbo].[FK_Clients_Regions] (Foreign Key)
+       [dbo].[FK_Projects_Clients] (Foreign Key)
+     Refresh
+       [dbo].[spClientProjects_List] (Procedure)
+       [dbo].[spClients_Add] (Procedure)
+       [dbo].[spClients_Delete] (Procedure)
+       [dbo].[spClients_Details] (Procedure)
+       [dbo].[spClients_Edit] (Procedure)
+       [dbo].[spClients_List] (Procedure)
+       [dbo].[spProjects_Details] (Procedure)
+       [dbo].[spProjects_List] (Procedure)
+       [dbo].[spRegionClients_List] (Procedure)

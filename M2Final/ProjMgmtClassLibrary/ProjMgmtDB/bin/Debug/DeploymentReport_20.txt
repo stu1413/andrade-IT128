@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[spAssignments_Edit] (Procedure)
+       [dbo].[spClients_Edit] (Procedure)
+       [dbo].[spDepartments_Edit] (Procedure)
+       [dbo].[spEmployees_Edit] (Procedure)
+       [dbo].[spProjects_Edit] (Procedure)
+       [dbo].[spRegions_Edit] (Procedure)
+       [dbo].[spRoles_Edit] (Procedure)
+       [dbo].[spTasks_Edit] (Procedure)
+
+** Supporting actions
