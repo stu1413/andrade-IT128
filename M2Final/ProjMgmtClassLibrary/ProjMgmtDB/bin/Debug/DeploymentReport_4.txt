@@ -1,0 +1,42 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[spEmployees_Register] (Procedure)
+       [dbo].[spPosts_Details] (Procedure)
+       [dbo].[spPosts_Insert] (Procedure)
+       [dbo].[spPosts_List] (Procedure)
+       [dbo].[spProjects_Add] (Procedure)
+       [dbo].[spProjects_Delete] (Procedure)
+       [dbo].[spProjects_Details] (Procedure)
+       [dbo].[spProjects_Edit] (Procedure)
+       [dbo].[spProjects_List] (Procedure)
+       [dbo].[spProjectTasks_List] (Procedure)
+       [dbo].[spRegions_Delete] (Procedure)
+       [dbo].[spRegions_Details] (Procedure)
+       [dbo].[spRegions_Edit] (Procedure)
+       [dbo].[spRegions_List] (Procedure)
+       [dbo].[spRegions_Register] (Procedure)
+       [dbo].[spRoles_Add] (Procedure)
+       [dbo].[spRoles_Delete] (Procedure)
+       [dbo].[spRoles_Details] (Procedure)
+       [dbo].[spRoles_Edit] (Procedure)
+       [dbo].[spRoles_List] (Procedure)
+       [dbo].[spTaskAssignments_List] (Procedure)
+       [dbo].[spTasks_Add] (Procedure)
+       [dbo].[spTasks_Delete] (Procedure)
+       [dbo].[spTasks_Details] (Procedure)
+       [dbo].[spTasks_Edit] (Procedure)
+       [dbo].[spTasks_List] (Procedure)
+       [dbo].[spUsers_Authenticate] (Procedure)
+       [dbo].[spUsers_Register] (Procedure)
+
+** Supporting actions

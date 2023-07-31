@@ -1862,19 +1862,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ren\\.nuget\\packages\\": {}
+    "C:\\Users\\Ren\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\BlogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\BlogAPI.csproj",
       "projectName": "BlogAPI",
-      "projectPath": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\BlogAPI.csproj",
-      "packagesPath": "C:\\Users\\ren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\obj\\",
+      "projectPath": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\BlogAPI.csproj",
+      "packagesPath": "C:\\Users\\Ren\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ren\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1882,14 +1882,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {
-              "projectPath": "C:\\Users\\ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj"
+            "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+              "projectPath": "C:\\Users\\Ren\\Desktop\\IT128L\\AndradeLE2\\BlogDataLibrary\\BlogDataLibrary.csproj"
             }
           }
         }
@@ -1940,7 +1941,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

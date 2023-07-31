@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddAssignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\AddTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditAssignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientMethods\EditTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Services\AuthService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Services\TokenStorageService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

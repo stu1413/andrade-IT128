@@ -1,0 +1,322 @@
+body { 
+  margin: 0;
+  background-color: #444;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+*{ 
+  margin:0;  
+  padding:0; 
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+}
+
+nav{
+  min-height: 8.3vh;
+  background-image: linear-gradient(to bottom right, black, rgb(43, 43, 43));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .logo{ 
+  padding:20px; 
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #04AA6D;
+}
+
+nav .title{
+  margin-right: 25vw;
+  font-size: 5vh;
+}
+
+nav .links{
+  margin-left: 25vw;
+  font-size: 1.5vh;
+}
+
+nav a{
+  color:#fff; 
+  text-decoration: none;
+}
+
+.bump{
+  min-height: 0.70vh; 
+  background-image: linear-gradient(to bottom right, black, rgb(43, 43, 43));
+}
+
+.body{ 
+  min-height: 91vh; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  padding-bottom: 5vh; 
+  background-image: url("../clouds.jpg"); 
+  background-size: cover;
+}
+
+.body a{ 
+  text-decoration: none;
+}
+
+.body .logo{ 
+  padding:20px; 
+  background-color: black; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,.4); 
+  margin-right: 20px; 
+  text-align: center;
+}
+
+.body h3{ 
+  font-size: 60px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+  color:#333; 
+  text-align: center;
+}
+
+.body h4{ 
+  font-size: 30px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+  color:#333; 
+  text-align: center;
+}
+
+.body .form-container{ 
+  padding: 50px; 
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5); 
+  background: #aaa; 
+  width: 600px; 
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.body .form-container form{ 
+  text-align: left; 
+}
+
+.body .form-container form input,
+.body .form-container form select{ 
+  width: 100%; 
+  padding:10px 15px; 
+  font-size: 15px; 
+  margin:8px 0; 
+  background: #eee; 
+  border-radius: 5px;
+}
+
+.body .form-container form .form-btn{
+  background: #666;
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px #555;
+  margin-top: 20px;
+}
+
+.body .form-container form .form-btn:hover{
+  background: #444;
+  color:#fff;
+}
+
+.body .form-container form .form-btn:active {
+  background-color: #222;
+  color:#fff;
+  transform: translateY(2px);
+  box-shadow: 0 1px 3px #000;
+}
+
+.body .form-container a {
+  color:#fff;
+}
+
+.body .form-container .btn-right {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.body .form-container .btn-left {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.body .form-container .btn-left a,
+.body .form-container .btn-right a{
+  color:#fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px #555;
+  padding:10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.body .form-container .btn-left a{
+  
+  background: rgb(140, 41, 64); 
+}
+
+.body .form-container .btn-right a{
+  background: rgb(5, 91, 112); 
+}
+
+.body .form-container .btn-left a:hover,
+.body .form-container .btn-right a:hover{
+  background: rgb(16, 96, 57); 
+}
+
+.body .form-container .btn-left a:hover{
+  background: rgb(112, 5, 5); 
+}
+
+.body .form-container .btn-right a:hover{
+  background: rgb(16, 96, 57); 
+}
+
+.body .form-container .btn-left a:active,
+.body .form-container .btn-right a:active {
+  background-color: #222;
+  box-shadow: 0 4px 8px #000;
+}
+
+.body .form-container .results1{
+  margin: 5px 0;
+  display: block;
+  text-align: center;
+  background: rgb(128, 35, 54);
+  color:#fff;
+  border-radius: 5px;
+  padding:20px 30px 20px;
+  font-size: 35px;
+}
+
+.body .form-container .results2{
+  margin: 30px 0 10px;
+  text-align: center;
+  background: crimson;
+  border-radius: 5px;
+  font-size: 25px;
+  padding:15px;
+}
+
+.body .form-container .results2 h2{
+  font-size: 15px;
+}
+
+.body .form-container .results3{
+  margin: 20px 0 10px;
+  text-align: center;
+  background: rgb(123, 123, 123);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.body .form-container .error-msg{
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  background: rgb(161, 14, 44);
+  color:#fff;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.edit{
+  cursor: pointer;
+  padding:10px 20px;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+}
+
+.delete{
+  cursor: pointer;
+  padding:10px 20px;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+}
+
+.delete a{
+  color: black;
+}
+
+.body .form-container-prospect table, th, td {
+  text-align: center;
+  background: white;
+  border-radius: 3px;
+}
+
+.body .form-container-prospect table{
+  border: 0px;
+  background: #aaa;
+}
+
+.body .form-container-prospect table form {
+  text-align: center; 
+  border: 1px solid black;
+  text-align: center;
+  background: white;
+}
+
+.body .form-container-prospect{ 
+  padding: 50px; 
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5); 
+  background: #aaa; 
+  width: 800px; 
+  display: inline-block;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.input{ 
+  background: #ccc; 
+  border-radius: 3px;
+  text-align: center;
+  border: 0.5px solid black;
+}
+
+#form-container-2 {
+  width: 400px; 
+}
+
+#calculator {
+  width: 550px; 
+}
+
+#th-calculator {
+  width: 120px; 
+}

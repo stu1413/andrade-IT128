@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from 'src/app/services/auth.service';
 import { TokenStorageService } from 'src/app/services/token-storage.service';
 
 @Component({
@@ -14,16 +13,16 @@ export class AddPostComponent implements OnInit {
     title: null,
     body: null,
   }
+  
 
   constructor(
-    private authService: AuthService,
     private tokenStorage: TokenStorageService,
     private http: HttpClient,
-    private route: Router) {}
+    private router: Router) {}
 
   ngOnInit(): void {
     if (this.tokenStorage.getToken() == 'auth-token') {
-      this.route.navigate(['login']);
+      this.router.navigate(['login']);
     }
   }
 
@@ -34,7 +33,7 @@ export class AddPostComponent implements OnInit {
 
     this.http.post("https://localhost:7259/api/Post/add", this.form, {headers: {'Authorization': 'Bearer ' + this.tokenStorage.getToken()}, responseType: 'text'}).subscribe(data => {
       this.tokenStorage.signOut(); 
-      this.route.navigate(['']);
+      this.router.navigate(['']);
     })
   }
 

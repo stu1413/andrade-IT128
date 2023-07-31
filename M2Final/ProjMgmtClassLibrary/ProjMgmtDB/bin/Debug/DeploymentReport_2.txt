@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Department] (Table)
+       [dbo].[Employees] (Table)
+       [dbo].[Table1] (Table)
+       [dbo].[Table2] (Table)
+       [dbo].[Tasks] (Table)
+       [dbo].[FK_Employees_ToTable] (Foreign Key)
+
+** Supporting actions

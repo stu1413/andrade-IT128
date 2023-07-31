@@ -1,28 +1,49 @@
-<div>
-    <h3><a href="register"> REGISTER </a></h3>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blog | Posts</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="login-page.component.css">
+	</head>
+	<body>
+		<nav>
+			<div class="title">
+				<a href="">Blog</a>
+			</div>
+            <div class="links">
+                <ul>
+                    <li><a href="login">Login</a></li>
+                    <li><a href="register">Register</a></li>
+                </ul>
+            </div>
+		</nav>
+		<div class="bump"></div>
+		<div class="body">
+			<div class="form-container">
+                <h3>Welcome Back</h3>
+                    <form name="form" (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
+                        <label for="username">Email</label>
+                        <input
+                            required
+                            type="text"
+                            name="username"
+                            [(ngModel)]="form.username"
+                            #username="ngModel">
+            
+                        <label for="password">Password</label>
+                        <input type="password"
+                            name="password"
+                            [(ngModel)]="form.password"
+                            required
+                            #password="ngModel">
+                        <input type="submit" name="submit" value="Login" class="form-btn">
+                    </form>
 
-    <h1>Welcome Back</h1>
-    <h3>Login Here</h3>
-    <form name="form" (ngSubmit)="onSubmit()" #f="ngForm" novalidate>
-        <div>
-            <label for="username">Email</label>
-            <input
-                required
-                type="text"
-                name="username"
-                [(ngModel)]="form.username"
-                #username="ngModel">
-
-            <label for="password">Password</label>
-            <input type="password"
-                name="password"
-                [(ngModel)]="form.password"
-                required
-                #password="ngModel">
-        </div>
-        <button>Submit</button>
-    </form>
+					<div class="btn-right">
+						<a href="register">Register ></a>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
     
-    <h3><a href=""> LIST POSTS </a></h3>
-    
-</div>

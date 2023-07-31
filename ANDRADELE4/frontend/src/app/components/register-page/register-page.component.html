@@ -1,43 +1,71 @@
-<form
-    name="form" 
-    (ngSubmit)="onSubmit()" 
-    #f="ngForm" novalidate>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Blog | Posts</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="register-page.component.css">
+	</head>
+	<body>
+		<nav>
+			<div class="title">
+				<a href="">Blog</a>
+			</div>
+            <div class="links">
+                <ul>
+                    <li><a href="login">Login</a></li>
+                    <li><a href="register">Register</a></li>
+                </ul>
+            </div>
+		</nav>
+		<div class="bump"></div>
+		<div class="body">
+			<div class="form-container">
+                <h3>Sign up</h3>
+                <form
+                    name="form" 
+                    (ngSubmit)="onSubmit()" 
+                    #f="ngForm" novalidate>
+                    
+                    <label for="username">Username</label>
+                    <input
+                        type="text"
+                        name="username"
+                        [(ngModel)]="form.username"
+                        required
+                        #username="ngModel" />
+                
+                    <label for="password">Password</label>
+                    <input 
+                        type="password"
+                        name="password"
+                        [(ngModel)]="form.password"
+                        required
+                        #password="ngModel" />
+                
+                    <label for="firstName">First Name</label>
+                    <input 
+                        type="text"
+                        name="firstName"
+                        [(ngModel)]="form.firstName"
+                        required
+                        #password="ngModel" />
+                    
+                    <label for="LastName">Last Name</label>
+                    <input 
+                        type="lastName"
+                        name="lastName"
+                        [(ngModel)]="form.lastName"
+                        required
+                        #password="ngModel" />
+                
+                    <input type="submit" name="submit" value="Register" class="form-btn">
+                </form>
+
+				<div class="btn-left">
+					<a href="login">&lt; Login</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
     
-    <label for="username">Username</label>
-    <input
-        type="text"
-        name="username"
-        [(ngModel)]="form.username"
-        required
-        #username="ngModel" />
-
-    <label for="password">Password</label>
-    <input 
-        type="password"
-        name="password"
-        [(ngModel)]="form.password"
-        required
-        #password="ngModel" />
-
-    <label for="firstName">First Name</label>
-    <input 
-        type="text"
-        name="firstName"
-        [(ngModel)]="form.firstName"
-        required
-        #password="ngModel" />
-    
-    <label for="LastName">Last Name</label>
-    <input 
-        type="lastName"
-        name="lastName"
-        [(ngModel)]="form.lastName"
-        required
-        #password="ngModel" />
-
-        <button>Submit</button>
-
-</form>
-
-<h3><a href="login"> LOGIN </a></h3>
-<h3><a href=""> POSTS </a></h3>
